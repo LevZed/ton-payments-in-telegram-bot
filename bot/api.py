@@ -84,22 +84,3 @@ def find_transaction(user_wallet, value, comment):
             else:
                 pass
     return False
-
-
-# same for testnet
-
-# b = find_transaction(
-#     "EQCzQJJBAQ-FrEFcvxO5sNxhV9CaOdK9CCfq2yCBnwZ4aJ9R", "1000000000", "Second")
-
-# print(b)
-
-# a = get_address_transactions()
-# i = 1
-# print(a)
-# for tx in a['result']:
-#     print(f"\n{i}\n-----------------------------------------------------\n")
-#     if len(tx['in_msg']) != []:
-#         print(tx['in_msg']['message'])
-#         print(int(tx['in_msg']['value']))
-
-#     i += 1
