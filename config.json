@@ -1,0 +1,8 @@
+{
+    "BOT_TOKEN": "Your bot token",
+    "MAINNET_API_TOKEN": "Your mainnet api token",
+    "TESTNET_API_TOKEN": "Your testnet api token",
+    "MAINNET_WALLET": "Your mainnet wallet",
+    "TESTNET_WALLET": "Your testnet wallet",
+    "WORK_MODE": "testnet"
+}
