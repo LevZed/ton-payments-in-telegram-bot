@@ -8,7 +8,7 @@ Insert your tokens and wallets in the `config.json` file.
 
 to start bot localy, run the following command:
 
-`python bot/main.py`
+`py bot/main.py`
 
 It starts in testnet mode by default.
 To run in mainnet mode, change "WORKMODE" in config.json from "testnet" to "mainnet".:
