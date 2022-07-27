@@ -287,10 +287,6 @@ Applying it, by default, we will get the last 10 transactions. However, we can a
 
 For example, there is a wallet in the test network `EQAVKMzqtrvNB2SkcBONOijadqFZ1gMdjmzh1Y3HB1p_zai5`, it has only 4 transactions:
 
-![Да, бота я уже протестировал](ton%20footstep%208%20(en)%200173ac7dd8934a6ea6e11d1e1301ef41/Untitled%201.png)
-
-Да, бота я уже протестировал
-
 Using a query `https://testnet.toncenter.com/api/v2/getTransactions?address=EQAVKMzqtrvNB2SkcBONOijadqFZ1gMdjmzh1Y3HB1p_zai5&limit=2&to_lt=0&archival=true` we will get the following response:
 
 ```json
