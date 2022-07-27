@@ -13,4 +13,4 @@ to start bot localy, run the following command:
 It starts in testnet mode by default.
 To run in mainnet mode, change "WORKMODE" in config.json from "testnet" to "mainnet".:
 
-This repository is not for prodaction. if you deploy it to heroku in this state you can lose data in `bot/local.db` database from time to time.
+This repository is not for production. if you deploy it to heroku in this state you can lose data in `bot/local.db` database from time to time.
