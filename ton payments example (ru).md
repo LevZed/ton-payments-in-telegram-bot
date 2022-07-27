@@ -383,10 +383,6 @@ def get_user_payments(user_id):
 
 Для примера - есть кошелёк в тестовой сети `EQAVKMzqtrvNB2SkcBONOijadqFZ1gMdjmzh1Y3HB1p_zai5`, у него всего 4 транзакции:
 
-![Да, бота я уже протестировал](ton%20footstep%208%20(ru)%2089efbd0580e045958611562e2623ab1e/Untitled%203.png)
-
-Да, бота я уже протестировал
-
 Использовав запрос `https://testnet.toncenter.com/api/v2/getTransactions?address=EQAVKMzqtrvNB2SkcBONOijadqFZ1gMdjmzh1Y3HB1p_zai5&limit=2&to_lt=0&archival=true` мы получим следующий ответ:
 
 ```json
