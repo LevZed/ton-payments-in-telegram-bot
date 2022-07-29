@@ -1,3 +1,2 @@
 aiogram
-psycopg2
 requests
