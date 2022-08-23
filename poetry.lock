@@ -1,0 +1,195 @@
+[[package]]
+category = "main"
+description = "Is a pretty simple and fully asynchronous framework for Telegram Bot API"
+name = "aiogram"
+optional = false
+python-versions = ">=3.7"
+version = "2.22.1"
+
+[package.dependencies]
+Babel = ">=2.9.1,<2.10.0"
+aiohttp = ">=3.8.0,<3.9.0"
+certifi = ">=2021.10.8"
+
+[package.extras]
+fast = ["uvloop (>=0.16.0,<0.17.0)", "ujson (>=1.35)"]
+proxy = ["aiohttp-socks (>=0.5.3,<0.6.0)"]
+
+[[package]]
+category = "main"
+description = "Async http client/server framework (asyncio)"
+name = "aiohttp"
+optional = false
+python-versions = ">=3.6"
+version = "3.8.1"
+
+[package.dependencies]
+aiosignal = ">=1.1.2"
+async-timeout = ">=4.0.0a3,<5.0"
+attrs = ">=17.3.0"
+charset-normalizer = ">=2.0,<3.0"
+frozenlist = ">=1.1.1"
+multidict = ">=4.5,<7.0"
+yarl = ">=1.0,<2.0"
+
+[package.extras]
+speedups = ["aiodns", "brotli", "cchardet"]
+
+[[package]]
+category = "main"
+description = "aiosignal: a list of registered asynchronous callbacks"
+name = "aiosignal"
+optional = false
+python-versions = ">=3.6"
+version = "1.2.0"
+
+[package.dependencies]
+frozenlist = ">=1.1.0"
+
+[[package]]
+category = "main"
+description = "Timeout context manager for asyncio programs"
+name = "async-timeout"
+optional = false
+python-versions = ">=3.6"
+version = "4.0.2"
+
+[[package]]
+category = "main"
+description = "Classes Without Boilerplate"
+name = "attrs"
+optional = false
+python-versions = ">=3.5"
+version = "22.1.0"
+
+[package.extras]
+dev = ["coverage (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "mypy (>=0.900,<0.940 || >0.940)", "pytest-mypy-plugins", "zope.interface", "furo", "sphinx", "sphinx-notfound-page", "pre-commit", "cloudpickle"]
+docs = ["furo", "sphinx", "zope.interface", "sphinx-notfound-page"]
+tests = ["coverage (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "mypy (>=0.900,<0.940 || >0.940)", "pytest-mypy-plugins", "zope.interface", "cloudpickle"]
+tests_no_zope = ["coverage (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "mypy (>=0.900,<0.940 || >0.940)", "pytest-mypy-plugins", "cloudpickle"]
+
+[[package]]
+category = "main"
+description = "Internationalization utilities"
+name = "babel"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.9.1"
+
+[package.dependencies]
+pytz = ">=2015.7"
+
+[[package]]
+category = "main"
+description = "Python package for providing Mozilla's CA Bundle."
+name = "certifi"
+optional = false
+python-versions = ">=3.6"
+version = "2022.6.15"
+
+[[package]]
+category = "main"
+description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
+name = "charset-normalizer"
+optional = false
+python-versions = ">=3.6.0"
+version = "2.1.1"
+
+[package.extras]
+unicode_backport = ["unicodedata2"]
+
+[[package]]
+category = "main"
+description = "A list-like structure which implements collections.abc.MutableSequence"
+name = "frozenlist"
+optional = false
+python-versions = ">=3.7"
+version = "1.3.1"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+name = "idna"
+optional = false
+python-versions = ">=3.5"
+version = "3.3"
+
+[[package]]
+category = "main"
+description = "multidict implementation"
+name = "multidict"
+optional = false
+python-versions = ">=3.7"
+version = "6.0.2"
+
+[[package]]
+category = "main"
+description = "World timezone definitions, modern and historical"
+name = "pytz"
+optional = false
+python-versions = "*"
+version = "2022.2.1"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = ">=3.7, <4"
+version = "2.28.1"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+charset-normalizer = ">=2,<3"
+idna = ">=2.5,<4"
+urllib3 = ">=1.21.1,<1.27"
+
+[package.extras]
+socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7)"]
+use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
+
+[[package]]
+category = "main"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+name = "urllib3"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, <4"
+version = "1.26.12"
+
+[package.extras]
+brotli = ["brotlicffi (>=0.8.0)", "brotli (>=1.0.9)", "brotlipy (>=0.6.0)"]
+secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "urllib3-secure-extra", "ipaddress"]
+socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
+
+[[package]]
+category = "main"
+description = "Yet another URL library"
+name = "yarl"
+optional = false
+python-versions = ">=3.7"
+version = "1.8.1"
+
+[package.dependencies]
+idna = ">=2.0"
+multidict = ">=4.0"
+
+[metadata]
+content-hash = "11a1e3d0fd5ffb9f24f48ee32a3bf985b7c250c6cabbea774b82222aca1adb8e"
+python-versions = "^3.8"
+
+[metadata.files]
+aiogram = []
+aiohttp = []
+aiosignal = []
+async-timeout = []
+attrs = []
+babel = []
+certifi = []
+charset-normalizer = []
+frozenlist = []
+idna = []
+multidict = []
+pytz = []
+requests = []
+urllib3 = []
+yarl = []
