@@ -72,11 +72,12 @@ def find_transaction(user_wallet, value, comment):
     transactions = get_address_transactions()
     for transaction in transactions:
         msg = transaction['in_msg']
+        trn = transaction['transaction_id']
         if msg['source'] == user_wallet and msg['value'] == value and msg['message'] == comment:
-            t = db.check_transaction(msg['body_hash'])
+            t = db.check_transaction(trn['hash'])
             if t == False:
                 db.add_v_transaction(
-                    msg['source'], msg['body_hash'], msg['value'], msg['message'])
+                    msg['source'], trn['hash'], msg['value'], msg['message'])
                 print("find transaction")
                 print(
                     f"transaction from: {msg['source']} \nValue: {msg['value']} \nComment: {msg['message']}")
